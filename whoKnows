@@ -4,25 +4,13 @@
 -- Instances:
 
 local SuperPOOPYtrollUI = Instance.new("ScreenGui")
-local Gate = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local TextBox = Instance.new("TextBox")
-local UICorner_2 = Instance.new("UICorner")
-local ks = Instance.new("TextLabel")
-local UICorner_3 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
-local UICorner_4 = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
-local TextLabel_3 = Instance.new("TextLabel")
-local ENTER = Instance.new("TextButton")
 local Frame = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
 local TextButton_3 = Instance.new("TextButton")
-local TextButton_4 = Instance.new("TextButton")
-local TextLabel_4 = Instance.new("TextLabel")
-local TextBox_2 = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
 local KILLNIGGA = Instance.new("TextButton")
 
 --Properties:
@@ -32,130 +20,11 @@ SuperPOOPYtrollUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 SuperPOOPYtrollUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 SuperPOOPYtrollUI.ResetOnSpawn = false
 
-Gate.Name = "Gate"
-Gate.Parent = SuperPOOPYtrollUI
-Gate.Active = true
-Gate.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
-Gate.Position = UDim2.new(0.256077796, 0, 0.235611528, 0)
-Gate.Size = UDim2.new(0, 506, 0, 294)
-
-UICorner.CornerRadius = UDim.new(0, 10)
-UICorner.Parent = Gate
-
-TextLabel.Parent = Gate
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.00790514052, 0, -0.13945578, 0)
-TextLabel.Size = UDim2.new(0, 497, 0, 64)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Totally really good mother fucking trolling gui"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextStrokeColor3 = Color3.fromRGB(74, 74, 74)
-TextLabel.TextStrokeTransparency = 0.000
-TextLabel.TextWrapped = true
-
-TextBox.Parent = Gate
-TextBox.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextBox.Position = UDim2.new(0.302371532, 0, 0.551020384, 0)
-TextBox.Size = UDim2.new(0, 200, 0, 50)
-TextBox.Font = Enum.Font.SourceSans
-TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-TextBox.PlaceholderText = "Key here"
-TextBox.Text = ""
-TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.TextScaled = true
-TextBox.TextSize = 14.000
-TextBox.TextWrapped = true
-
-UICorner_2.CornerRadius = UDim.new(0, 10)
-UICorner_2.Parent = TextBox
-
-ks.Name = "ks"
-ks.Parent = Gate
-ks.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-ks.Position = UDim2.new(0.302371532, 0, 0.792516947, 0)
-ks.Size = UDim2.new(0, 200, 0, 50)
-ks.Font = Enum.Font.SourceSans
-ks.Text = "Key Status: NaN"
-ks.TextColor3 = Color3.fromRGB(255, 255, 255)
-ks.TextScaled = true
-ks.TextSize = 14.000
-ks.TextStrokeColor3 = Color3.fromRGB(71, 71, 71)
-ks.TextStrokeTransparency = 0.000
-ks.TextWrapped = true
-
-UICorner_3.CornerRadius = UDim.new(0, 10)
-UICorner_3.Parent = ks
-
-TextLabel_2.Parent = Gate
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-TextLabel_2.Position = UDim2.new(0.312252969, 0, 0.0510203242, 0)
-TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Current Key: TRGTG.213 "
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextStrokeColor3 = Color3.fromRGB(71, 71, 71)
-TextLabel_2.TextStrokeTransparency = 0.000
-TextLabel_2.TextWrapped = true
-
-UICorner_4.CornerRadius = UDim.new(0, 10)
-UICorner_4.Parent = TextLabel_2
-
-TextButton.Parent = Gate
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
-TextButton.BackgroundTransparency = 1.000
-TextButton.BorderColor3 = Color3.fromRGB(81, 81, 81)
-TextButton.Position = UDim2.new(0.0177865606, 0, 0.0340136066, 0)
-TextButton.Size = UDim2.new(0, 67, 0, 54)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "X"
-TextButton.TextColor3 = Color3.fromRGB(81, 81, 81)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
-TextButton.TextStrokeTransparency = 0.000
-TextButton.TextWrapped = true
-
-TextLabel_3.Parent = Gate
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.0237154141, 0, 0.21768707, 0)
-TextLabel_3.Size = UDim2.new(0, 104, 0, 64)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "if you click the X you must re-execute."
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextStrokeColor3 = Color3.fromRGB(74, 74, 74)
-TextLabel_3.TextStrokeTransparency = 0.000
-TextLabel_3.TextWrapped = true
-
-ENTER.Name = "ENTER"
-ENTER.Parent = Gate
-ENTER.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
-ENTER.BackgroundTransparency = 0.500
-ENTER.BorderColor3 = Color3.fromRGB(81, 81, 81)
-ENTER.Position = UDim2.new(0.707509875, 0, 0.537414968, 0)
-ENTER.Size = UDim2.new(0, 114, 0, 54)
-ENTER.Font = Enum.Font.SourceSans
-ENTER.Text = "Enter."
-ENTER.TextColor3 = Color3.fromRGB(81, 81, 81)
-ENTER.TextScaled = true
-ENTER.TextSize = 14.000
-ENTER.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
-ENTER.TextStrokeTransparency = 0.000
-ENTER.TextWrapped = true
-
 Frame.Parent = SuperPOOPYtrollUI
 Frame.Active = true
 Frame.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Frame.Position = UDim2.new(0.0688816831, 0, 0.116134837, 0)
+Frame.Position = UDim2.new(0.115072936, 0, 0.166608021, 0)
 Frame.Size = UDim2.new(0, 797, 0, 468)
-Frame.Visible = false
 
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
@@ -163,11 +32,22 @@ ScrollingFrame.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
 ScrollingFrame.Position = UDim2.new(0.090338774, 0, 0.1431624, 0)
 ScrollingFrame.Size = UDim2.new(0, 291, 0, 400)
 
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.Size = UDim2.new(0, 276, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Kill user"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
 TextButton_2.Parent = ScrollingFrame
 TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.Position = UDim2.new(0.0240549836, 0, 0.1068376, 0)
 TextButton_2.Size = UDim2.new(0, 276, 0, 50)
 TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "Kill user"
+TextButton_2.Text = "Some random shit. I don't fucking know what the hell it is."
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
@@ -175,48 +55,37 @@ TextButton_2.TextWrapped = true
 
 TextButton_3.Parent = ScrollingFrame
 TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.Position = UDim2.new(0.0240549836, 0, 0.1068376, 0)
+TextButton_3.Position = UDim2.new(0, 0, 0.053418804, 0)
 TextButton_3.Size = UDim2.new(0, 276, 0, 50)
 TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "Some random shit. I don't fucking know what the hell it is."
+TextButton_3.Text = "Inf spin"
 TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 
-TextButton_4.Parent = ScrollingFrame
-TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.Position = UDim2.new(0, 0, 0.053418804, 0)
-TextButton_4.Size = UDim2.new(0, 276, 0, 50)
-TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "Inf spin"
-TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextWrapped = true
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextLabel.Position = UDim2.new(0.146800503, 0, 0.014957265, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Totally good dick sucking trolls below."
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
-TextLabel_4.Parent = Frame
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
-TextLabel_4.Position = UDim2.new(0.146800503, 0, 0.014957265, 0)
-TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "Totally good dick sucking trolls below."
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
-
-TextBox_2.Parent = Frame
-TextBox_2.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
-TextBox_2.Position = UDim2.new(0.478529871, 0, 0.1431624, 0)
-TextBox_2.Size = UDim2.new(0, 200, 0, 50)
-TextBox_2.Font = Enum.Font.SourceSans
-TextBox_2.PlaceholderText = "enter user here faggot"
-TextBox_2.Text = ""
-TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextBox_2.TextScaled = true
-TextBox_2.TextSize = 14.000
-TextBox_2.TextWrapped = true
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+TextBox.Position = UDim2.new(0.478529871, 0, 0.1431624, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "enter user here faggot"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
 
 KILLNIGGA.Name = "KILLNIGGA"
 KILLNIGGA.Parent = Frame
@@ -232,53 +101,17 @@ KILLNIGGA.TextWrapped = true
 
 -- Scripts:
 
-local function DZBSS_fake_script() -- Gate.DraggingActive 
-	local script = Instance.new('LocalScript', Gate)
-
-	script.Parent.Draggable = true
-	script.Parent.Selectable = true
-end
-coroutine.wrap(DZBSS_fake_script)()
-local function AVNVXPX_fake_script() -- TextButton.LocalScript 
+local function OEFLQ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
-
-	script.Parent.MouseButton1Up:Connect(function()
-		script.Parent.Parent.Parent:Destroy()
-	end)
-end
-coroutine.wrap(AVNVXPX_fake_script)()
-local function QENSNT_fake_script() -- ENTER.LocalScript 
-	local script = Instance.new('LocalScript', ENTER)
-
-	script.Parent.MouseButton1Up:Connect(function()
-		local keyString = script.Parent.Parent.KeyString
-		local keyText = script.Parent.Parent.TextBox
-		local keyStatus = script.Parent.Parent.ks
-		if keyText.Text == keyString.Value then
-			keyStatus.Text = "Key status: Correct, gui opening..."
-			task.wait(4)
-			script.Parent.Parent.Parent.Frame.Visible = true
-			task.wait(1)
-			script.Parent.Parent:Destroy()
-		elseif keyText.Text ~= keyString.Value then
-			keyStatus.Text = "Key status: Incorrect. Try again..."
-			task.wait(5)
-			keyStatus.Text = "Key Status: Waiting to be entered..."
-		end
-	end)
-end
-coroutine.wrap(QENSNT_fake_script)()
-local function DEELTJ_fake_script() -- TextButton_2.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Up:Connect(function()
 		script.Parent.Parent.Parent.KILLNIGGA.Visible = true
 		script.Parent.Parent.Parent.TextBox.Visible = true
 	end)
 end
-coroutine.wrap(DEELTJ_fake_script)()
-local function RLXE_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
+coroutine.wrap(OEFLQ_fake_script)()
+local function BRSHLX_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Up:Connect(function()
 		local plr = game.Players.LocalPlayer
@@ -290,9 +123,9 @@ local function RLXE_fake_script() -- TextButton_3.LocalScript
 		script.Parent.Parent.Parent.TextBox.Visible = false
 	end)
 end
-coroutine.wrap(RLXE_fake_script)()
-local function LZHXKN_fake_script() -- TextButton_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_4)
+coroutine.wrap(BRSHLX_fake_script)()
+local function TCXTA_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Up:Connect(function()
 		local plr = game.Players.LocalPlayer
@@ -304,8 +137,8 @@ local function LZHXKN_fake_script() -- TextButton_4.LocalScript
 		script.Parent.Parent.Parent.TextBox.Visible = false
 	end)
 end
-coroutine.wrap(LZHXKN_fake_script)()
-local function KPCPJRU_fake_script() -- KILLNIGGA.LocalScript 
+coroutine.wrap(TCXTA_fake_script)()
+local function HTEMYC_fake_script() -- KILLNIGGA.LocalScript 
 	local script = Instance.new('LocalScript', KILLNIGGA)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -325,12 +158,12 @@ local function KPCPJRU_fake_script() -- KILLNIGGA.LocalScript
 		plrtokill.Character.Humanoid.Health = plrtokill.Character.Humanoid.Health - plrtokill.Character.Humanoid.Health 
 	end)
 end
-coroutine.wrap(KPCPJRU_fake_script)()
-local function RTVZ_fake_script() -- Frame.LocalScript 
+coroutine.wrap(HTEMYC_fake_script)()
+local function ICKJ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Draggable = true
 	script.Parent.Selectable = true
 	script.Parent.Active = true
 end
-coroutine.wrap(RTVZ_fake_script)()
+coroutine.wrap(ICKJ_fake_script)()
